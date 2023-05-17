@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.8.0)
 set(PATCH_VERSION 1 CACHE INTERNAL "Patch version")
 set(PROJECT_VERSION 0.0.${PATCH_VERSION})
 
-project(task03_print_ip VERSION ${PROJECT_VERSION})
+project(task04_print_ip VERSION ${PROJECT_VERSION})
 set_property(TARGET ${PROJECT} PROPERTY CXX_STANDARD 17)
 
 # cli
