@@ -12,6 +12,7 @@ add_executable(${PROJECT_NAME} ${SRC_H} ${SRC_CPP} main.cpp)
 # deb
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
 set(CPACK_GENERATOR DEB)
+set(CPACK_DEBIAN_FILE_NAME print_ip.deb)
 
 set(CPACK_PACKAGE_CONTACT example@example.com)
 include (CPack)
